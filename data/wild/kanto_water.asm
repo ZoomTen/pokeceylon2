@@ -4,146 +4,146 @@ KantoWaterWildMons:
 
 	map_id ROUTE_4
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
-	db 10, SEAKING
+	db 70, AZUMARILL
+	db 69, KINGLER
+	db 70, GYARADOS
 
 	map_id ROUTE_6
 	db 2 percent ; encounter rate
-	db 10, PSYDUCK
-	db 5, PSYDUCK
-	db 10, GOLDUCK
+	db 70, GOLDUCK
+	db 70, KINGLER
+	db 72, SLOWBRO
 
 	map_id ROUTE_9
 	db 4 percent ; encounter rate
-	db 15, GOLDEEN
-	db 10, GOLDEEN
-	db 15, SEAKING
+	db 68, QWILFISH
+	db 68, DEWGONG
+	db 68, SEAKING
 
 	map_id ROUTE_10_NORTH
 	db 4 percent ; encounter rate
-	db 15, GOLDEEN
-	db 10, GOLDEEN
-	db 15, SEAKING
+	db 68, GOLDUCK
+	db 68, SLOWPOKE
+	db 68, AZUMARILL
 
 	map_id ROUTE_12
 	db 6 percent ; encounter rate
-	db 25, TENTACOOL
-	db 25, QUAGSIRE
-	db 25, TENTACRUEL
+	db 69, GOLDUCK
+	db 69, QUAGSIRE
+	db 70, TENTACRUEL
 
 	map_id ROUTE_13
 	db 6 percent ; encounter rate
-	db 25, TENTACOOL
-	db 25, QUAGSIRE
-	db 25, TENTACRUEL
+	db 69, OCTILLERY
+	db 69, QUAGSIRE
+	db 70, TENTACRUEL
 
 	map_id ROUTE_19
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 74, QWILFISH
+	db 74, LANTURN
+	db 75, TENTACRUEL
 
 	map_id ROUTE_20
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 74, QWILFISH
+	db 74, QUAGSIRE
+	db 75, TENTACRUEL
 
 	map_id ROUTE_21
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 64, LANTURN
+	db 64, MANTINE
+	db 65, TENTACRUEL
 
 	map_id ROUTE_22
 	db 2 percent ; encounter rate
-	db 10, POLIWAG
-	db 5, POLIWAG
-	db 10, POLIWHIRL
+	db 62, PIKACHU
+	db 62, QUAGSIRE
+	db 64, QWILFISH
 
 	map_id ROUTE_24
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
-	db 10, SEAKING
+	db 67, QWILFISH
+	db 67, DEWGONG
+	db 69, RAICHU
 
 	map_id ROUTE_25
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
-	db 10, SEAKING
+	db 67, POLIWRATH
+	db 67, POLITOED
+	db 69, VAPOREON
 
 	map_id ROUTE_26
 	db 6 percent ; encounter rate
-	db 30, TENTACOOL
-	db 25, TENTACOOL
-	db 30, TENTACRUEL
+	db 58, QWILFISH
+	db 58, LANTURN
+	db 60, MANTINE
 
 	map_id ROUTE_27
 	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACRUEL
+	db 32, KINGLER
+	db 33, SEADRA
+	db 33, TENTACOOL
 
 	map_id TOHJO_FALLS
 	db 4 percent ; encounter rate
-	db 20, GOLDEEN
-	db 20, SLOWPOKE
-	db 20, SEAKING
+	db 34, HORSEA
+	db 32, SLOWPOKE
+	db 34, STARYU
 
 	map_id ROUTE_28
 	db 2 percent ; encounter rate
-	db 40, POLIWAG
-	db 35, POLIWAG
-	db 40, POLIWHIRL
+	db 81, POLIWRATH
+	db 81, QUAGSIRE
+	db 82, GOLDUCK
 
 	map_id PALLET_TOWN
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 63, STARYU
+	db 64, SHELLDER
+	db 64, TENTACRUEL
 
 	map_id VIRIDIAN_CITY
 	db 2 percent ; encounter rate
-	db 10, POLIWAG
-	db 5, POLIWAG
-	db 10, POLIWHIRL
+	db 63, BLASTOISE
+	db 63, FERALIGATR
+	db 65, DRAGONAIR
 
 	map_id CERULEAN_CITY
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
-	db 10, SEAKING
+	db 66, QWILFISH
+	db 66, GOLDUCK
+	db 68, SEADRA
 
 	map_id VERMILION_CITY
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 70, QWILFISH
+	db 71, LANTURN
+	db 73, TENTACRUEL
 
 	map_id CELADON_CITY
 	db 2 percent ; encounter rate
-	db 20, GRIMER
-	db 15, GRIMER
-	db 15, MUK
+	db 71, MUK
+	db 73, MUK
+	db 75, GRIMER
 
 	map_id FUCHSIA_CITY
 	db 2 percent ; encounter rate
-	db 20, MAGIKARP
-	db 15, MAGIKARP
-	db 10, MAGIKARP
+	db 74, MANTINE
+	db 74, QWILFISH
+	db 75, KINGLER
 
 	map_id CINNABAR_ISLAND
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 74, OCTILLERY
+	db 74, DEWGONG
+	db 77, TENTACRUEL
 
 	map_id VERMILION_PORT
 	db 2 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 70, SHELLDER
+	db 71, STARYU
+	db 73, LANTURN
 
 	db -1 ; end

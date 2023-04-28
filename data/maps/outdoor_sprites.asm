@@ -29,6 +29,8 @@ OutdoorSprites:
 	dw NewBarkGroupSprites
 	dw SaffronGroupSprites
 	dw CherrygroveGroupSprites
+	dw GlobalTerminalSprites
+	dw ViridianForestGroupSprites
 
 PalletGroupSprites:
 	db SPRITE_TEACHER
@@ -237,6 +239,9 @@ EcruteakGroupSprites:
 	db SPRITE_WEIRD_TREE
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
+	
+ViridianForestGroupSprites:
+	db SPRITE_BUG_CATCHER
 
 AzaleaGroupSprites:
 	db SPRITE_GRAMPS
@@ -251,6 +256,7 @@ AzaleaGroupSprites:
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SLOWPOKE
 
+GlobalTerminalSprites:
 GoldenrodGroupSprites:
 	db SPRITE_GRAMPS
 	db SPRITE_YOUNGSTER
