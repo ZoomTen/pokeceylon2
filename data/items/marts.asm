@@ -41,7 +41,7 @@ MartCherrygrove:
 	db POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
-	db AWAKENING
+	db REPEL
 	db -1 ; end
 
 MartCherrygroveDex:
@@ -50,40 +50,40 @@ MartCherrygroveDex:
 	db POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
-	db AWAKENING
+	db REPEL
 	db -1 ; end
 
 MartViolet:
 	db 10 ; # items
 	db POKE_BALL
-	db POTION
-	db ESCAPE_ROPE
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db X_DEFEND
-	db X_ATTACK
+	db SUPER_POTION
+	db X_ACCURACY
+	db FULL_HEAL
+	db SUPER_REPEL
+	db REVIVE
+	db GUARD_SPEC
 	db X_SPEED
-	db FLOWER_MAIL
+	db PP_UP
+	db MOON_STONE
 	db -1 ; end
 
 MartAzalea:
 	db 9 ; # items
-	db CHARCOAL
 	db POKE_BALL
-	db POTION
-	db SUPER_POTION
-	db ESCAPE_ROPE
-	db REPEL
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db FLOWER_MAIL
+	db GREAT_BALL
+	db HYPER_POTION
+	db MAX_POTION
+	db REVIVE
+	db SUPER_REPEL
+	db CHARCOAL
+	db MAX_REVIVE
+	db ELIXER
 	db -1 ; end
 
 MartCianwood:
 	db 5 ; # items
-	db POTION
-	db SUPER_POTION
+	db ULTRA_BALL
+	db MAX_POTION
 	db HYPER_POTION
 	db FULL_HEAL
 	db REVIVE
@@ -91,12 +91,12 @@ MartCianwood:
 
 MartGoldenrod2F1:
 	db 7 ; # items
-	db POTION
-	db SUPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
+	db REVIVE
+	db HYPER_POTION
+	db FULL_HEAL
+	db MAX_REVIVE
 	db AWAKENING
-	db BURN_HEAL
+	db ELIXER
 	db ICE_HEAL
 	db -1 ; end
 
@@ -105,11 +105,11 @@ MartGoldenrod2F2:
 	db POKE_BALL
 	db GREAT_BALL
 	db ESCAPE_ROPE
-	db REPEL
-	db REVIVE
-	db FULL_HEAL
-	db POKE_DOLL
-	db FLOWER_MAIL
+	db SUPER_REPEL
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
 	db -1 ; end
 
 MartGoldenrod3F:
@@ -166,11 +166,11 @@ MartGoldenrod5F4:
 
 MartOlivine:
 	db 9 ; # items
-	db GREAT_BALL
-	db SUPER_POTION
+	db ULTRA_BALL
+	db MAX_POTION
 	db HYPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
+	db REVIVE
+	db MAX_REVIVE
 	db AWAKENING
 	db ICE_HEAL
 	db SUPER_REPEL
@@ -179,15 +179,15 @@ MartOlivine:
 
 MartEcruteak:
 	db 10 ; # items
-	db POKE_BALL
-	db GREAT_BALL
-	db POTION
-	db SUPER_POTION
+	db ULTRA_BALL
+	db MAX_POTION
+	db FULL_RESTORE
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
-	db BURN_HEAL
 	db ICE_HEAL
+	db MAX_REVIVE
+	db MAX_REPEL
 	db REVIVE
 	db -1 ; end
 
@@ -196,20 +196,20 @@ MartMahogany1:
 	db TINYMUSHROOM
 	db SLOWPOKETAIL
 	db POKE_BALL
-	db POTION
+	db MAX_POTION
 	db -1 ; end
 
 MartMahogany2:
 	db 9 ; # items
 	db RAGECANDYBAR
-	db GREAT_BALL
-	db SUPER_POTION
+	db ULTRA_BALL
+	db MAX_POTION
 	db HYPER_POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db SUPER_REPEL
 	db REVIVE
-	db FLOWER_MAIL
+	db MAX_REVIVE
 	db -1 ; end
 
 MartBlackthorn:
@@ -221,28 +221,28 @@ MartBlackthorn:
 	db FULL_HEAL
 	db REVIVE
 	db MAX_REPEL
-	db X_DEFEND
+	db MAX_REVIVE
 	db X_ATTACK
 	db -1 ; end
 
 MartViridian:
 	db 9 ; # items
 	db ULTRA_BALL
-	db HYPER_POTION
+	db MAX_POTION
 	db FULL_HEAL
 	db REVIVE
-	db ANTIDOTE
+	db MAX_REVIVE
 	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
+	db RARE_CANDY
+	db FULL_RESTORE
 	db FLOWER_MAIL
 	db -1 ; end
 
 MartPewter:
 	db 7 ; # items
-	db GREAT_BALL
-	db SUPER_POTION
-	db SUPER_REPEL
+	db ULTRA_BALL
+	db MAX_POTION
+	db MAX_REPEL
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
@@ -253,8 +253,8 @@ MartCerulean:
 	db 9 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
-	db SUPER_POTION
-	db SUPER_REPEL
+	db HYPER_POTION
+	db MAX_REPEL
 	db FULL_HEAL
 	db X_DEFEND
 	db X_ATTACK
@@ -265,8 +265,8 @@ MartCerulean:
 MartLavender:
 	db 8 ; # items
 	db GREAT_BALL
-	db POTION
-	db SUPER_POTION
+	db MAX_POTION
+	db FULL_RESTORE
 	db MAX_REPEL
 	db ANTIDOTE
 	db PARLYZ_HEAL
@@ -277,10 +277,10 @@ MartLavender:
 MartVermilion:
 	db 8 ; # items
 	db ULTRA_BALL
-	db SUPER_POTION
+	db MAX_POTION
 	db HYPER_POTION
 	db REVIVE
-	db PARLYZ_HEAL
+	db MAX_REVIVE
 	db AWAKENING
 	db BURN_HEAL
 	db LITEBLUEMAIL
@@ -288,12 +288,12 @@ MartVermilion:
 
 MartCeladon2F1:
 	db 7 ; # items
-	db POTION
-	db SUPER_POTION
 	db HYPER_POTION
 	db MAX_POTION
+	db FULL_RESTORE
+	db MAX_REVIVE
 	db REVIVE
-	db SUPER_REPEL
+	db PP_UP
 	db MAX_REPEL
 	db -1 ; end
 
