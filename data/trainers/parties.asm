@@ -910,6 +910,16 @@ LassGroup:
 	db 48, TAUROS
 	db 48, MAGNETON
 	db -1 ; end
+	
+	; LASS (19)
+	db "CARLIE@", TRAINERTYPE_NORMAL
+	db 25, FLAREON
+	db 26, GYARADOS
+	db 25, VICTREEBEL
+	db 26, RAICHU
+	db 25, GENGAR
+	db 26, HYPNO
+	db -1 ; end
 
 JanineGroup:
 	; JANINE (1)

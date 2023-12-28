@@ -194,6 +194,7 @@ CHRIS EQU __trainer_class__
 	const EMILY
 	const ZOEY
 	const DAKOTA
+	const CARLIE
 
 	trainerclass JANINE ; 1a
 	const JANINE1
