@@ -492,7 +492,7 @@ NationalPark_MapEvents:
 	bg_event  6, 47, BGEVENT_ITEM, NationalParkHiddenFullHeal
 	bg_event 12,  4, BGEVENT_READ, NationalParkTrainerTipsSign
 
-	db 15 ; object events
+	db 14 ; object events
 	object_event 15, 24, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NationalParkLassScript, -1
 	object_event 23,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NationalParkPokefanFScript, -1
 	object_event 27, 40, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NationalParkTeacher1Script, -1

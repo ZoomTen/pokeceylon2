@@ -13,7 +13,6 @@
 	const NATIONALPARK_POKE_BALL1
 	const NATIONALPARK_GAMEBOY_KID
 	const NATIONALPARK_POKE_BALL2
-	const NATIONALPARK_LASS3
 
 NationalPark_MapScripts:
 	db 0 ; scene scripts
