@@ -19,7 +19,7 @@ MoveDescriptions::
 	dw WingAttackDescription
 	dw WhirlwindDescription
 	dw FlyDescription
-	dw BindDescription
+	dw PoisonFangDescription
 	dw SlamDescription
 	dw VineWhipDescription
 	dw StompDescription
@@ -340,9 +340,9 @@ FlyDescription:
 	db   "1st turn: Fly"
 	next "2nd turn: Attack@"
 
-BindDescription:
-	db   "Binds the target"
-	next "for 2-5 turns.@"
+PoisonFangDescription:
+	db   "An attack that may"
+	next "poison the foe.@"
 
 SlamDescription:
 	db   "Slams the foe with"

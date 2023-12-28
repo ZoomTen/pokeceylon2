@@ -18,7 +18,7 @@ MoveNames::
 	db "WING ATTACK@"
 	db "WHIRLWIND@"
 	db "FLY@"
-	db "CLOSE COMBAT@"
+	db "POISON FANG@"
 	db "SLAM@"
 	db "VINE WHIP@"
 	db "STOMP@"

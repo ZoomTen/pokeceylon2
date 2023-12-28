@@ -551,12 +551,12 @@ GolbatEvosAttacks:
 	db 1, HYPNOSIS
 	db 1, WING_ATTACK
 	db 1, GIGA_DRAIN
-	db 1, BITE
-	db 12, BITE
-	db 19, BITE
-	db 30, BITE
-	db 42, BITE
-	db 55, BITE
+	db 1, POISON_FANG
+	db 12, POISON_FANG
+	db 19, POISON_FANG
+	db 30, POISON_FANG
+	db 42, POISON_FANG
+	db 55, POISON_FANG
 	db 0 ; no more level-up moves
 
 OddishEvosAttacks:
@@ -642,7 +642,7 @@ VenonatEvosAttacks:
 VenomothEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GIGA_DRAIN
-	db 1, SLUDGE_BOMB
+	db 1, POISON_FANG
 	db 1, PSYCHIC_M
 	db 1, SLEEP_POWDER
 	db 9, SLEEP_POWDER
@@ -757,7 +757,7 @@ PrimeapeEvosAttacks:
 	db 1, THUNDERPUNCH
 	db 1, ICE_PUNCH
 	db 1, DIG
-	db 1, CLOSE_COMBAT
+	db 1, SUBMISSION
 	db 9, THUNDERPUNCH
 	db 15, THUNDERPUNCH
 	db 21, ICE_PUNCH
@@ -886,32 +886,32 @@ MachopEvosAttacks:
 MachokeEvosAttacks:
 	db EVOLVE_LEVEL, 50, MACHAMP
 	db 0 ; no more evolutions
-	db 1, CLOSE_COMBAT
+	db 1, SUBMISSION
 	db 1, ROCK_SLIDE
 	db 1, SEISMIC_TOSS
 	db 1, MEGA_PUNCH
 	db 15, MEGA_PUNCH
 	db 19, MEGA_PUNCH
 	db 25, MEGA_PUNCH
-	db 34, CLOSE_COMBAT
-	db 43, CLOSE_COMBAT
-	db 52, CLOSE_COMBAT
-	db 61, CLOSE_COMBAT
+	db 34, SUBMISSION
+	db 43, SUBMISSION
+	db 52, SUBMISSION
+	db 61, SUBMISSION
 	db 0 ; no more level-up moves
 
 MachampEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, CLOSE_COMBAT
+	db 1, SUBMISSION
 	db 1, EARTHQUAKE
 	db 1, ROCK_SLIDE
 	db 1, FIRE_BLAST
-	db 15, CLOSE_COMBAT
-	db 19, CLOSE_COMBAT
-	db 25, CLOSE_COMBAT
-	db 34, CLOSE_COMBAT
-	db 43, CLOSE_COMBAT
-	db 52, CLOSE_COMBAT
-	db 61, CLOSE_COMBAT
+	db 15, SUBMISSION
+	db 19, SUBMISSION
+	db 25, SUBMISSION
+	db 34, SUBMISSION
+	db 43, SUBMISSION
+	db 52, SUBMISSION
+	db 61, SUBMISSION
 	db 0 ; no more level-up moves
 
 BellsproutEvosAttacks:
@@ -1441,7 +1441,7 @@ HitmonleeEvosAttacks:
 	db 1, MEGA_KICK
 	db 1, ROCK_SLIDE
 	db 1, EARTHQUAKE
-	db 1, CLOSE_COMBAT
+	db 1, SUBMISSION
 	db 21, EARTHQUAKE
 	db 26, EARTHQUAKE
 	db 31, EARTHQUAKE
@@ -1454,7 +1454,7 @@ HitmonleeEvosAttacks:
 HitmonchanEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, MEGA_PUNCH
-	db 1, CLOSE_COMBAT
+	db 1, SUBMISSION
 	db 1, ROCK_SLIDE
 	db 1, EARTHQUAKE
 	db 26, ROCK_SLIDE
@@ -2312,7 +2312,7 @@ CrobatEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, GIGA_DRAIN
-	db 1, SLUDGE_BOMB
+	db 1, POISON_FANG
 	db 1, SHADOW_BALL
 	db 12, GIGA_DRAIN
 	db 19, GIGA_DRAIN
